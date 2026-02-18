@@ -72,6 +72,12 @@ header nav ul li:hover{
     align-items: center;
 }
 
+hr{
+    width: 75%;
+    margin: 0 auto;
+    opacity: 0.75;
+}
+
 header nav ul li a{
     text-decoration: none;
 }
