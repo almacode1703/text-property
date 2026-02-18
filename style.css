@@ -43,6 +43,10 @@ header p {
     padding: 1rem 2rem;
 }
 
+.menu ul li {
+    list-style-type: none;
+}
+
 .mirror{
     transform: rotateX(180deg);
     opacity: 0.45;
@@ -73,9 +77,10 @@ header nav ul li:hover{
 }
 
 hr{
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     opacity: 0.75;
+    height: 0.3px;
 }
 
 header nav ul li a{
@@ -120,9 +125,12 @@ main p {
     width: 80%;
     margin: 0 auto;
     padding: 1rem;
-    background-color: rgb(229, 222, 209);
+    background-color: brown;
     margin-top: 1%;
     margin-bottom: 1%;
+    color: antiquewhite;
+    line-height: 30px;
+    text-align: justify;
     text-transform: lowercase;
 }
 
